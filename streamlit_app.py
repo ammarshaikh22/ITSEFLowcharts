@@ -15,6 +15,7 @@ def save_tasks(tasks):
     with open(TASKS_FILE, "w") as file:
         json.dump(tasks, file)
 
+# Main function
 def main():
     st.title("📝 To-Do App with Streamlit")
     st.subheader("Manage your tasks easily!")
